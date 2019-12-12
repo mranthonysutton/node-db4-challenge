@@ -14,7 +14,8 @@ exports.seed = function(knex) {
         { recipe_id: 2, ingredient_id: 7, quantity: 16, measurement: "oz" },
         { recipe_id: 3, ingredient_id: 8, quantity: 1.25, measurement: "lbs" },
         { recipe_id: 3, ingredient_id: 9, quantity: 16, measurement: "oz" },
-        { recipe_id: 3, ingredient_id: 10, quantity: 8, measurement: "oz" }
+        { recipe_id: 3, ingredient_id: 10, quantity: 8, measurement: "oz" },
+        { recipe_id: 3, ingredient_id: 4, quantity: 1, measurement: "can" }
       ]);
     });
 };
